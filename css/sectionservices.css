@@ -51,15 +51,17 @@ h3 {
 }
 
 .red-icon {
-    margin-left: 50px;
-    width: 20px;
-    height: 20px;
-}
-.advantages {
-        display: inline;
-        font-size: 15px;
-        font-family: "Roboto";
-        color: #8c8c8c;
-} 
 
+    display: inline;
+    width: 15px;
+    height: 15px;
+}
+
+.advantages {
+        position: relative;
+        bottom: 40px;
+        left: 30px;
+        color: #8c8c8c;
+        display: contents;
+} 
 }
