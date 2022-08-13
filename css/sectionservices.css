@@ -38,7 +38,6 @@ h3 {
 }
 .service-image{
     width: 100%;
-    
 }
 
 .red-icon {
@@ -47,19 +46,25 @@ h3 {
     height: 15px;
 }
 .services-name{
-    display: grid;
-    grid-template-columns: 1fr 1fr
+    display: flex;
+    width: 120%;
 }
+.component {
+    height: 2px;
+    width: 11%;
+    background-color: #c00407;}
+
+
 @media screen and (max-width: 900px) {
 
 .service-image {
     width: 100%;
 } 
-
-img {
+.services-name{
     display: block;
     width: 100%;
 }
+
 h3 {
     text-transform: uppercase;
     color: #c00407;
