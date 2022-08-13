@@ -32,15 +32,13 @@ h3 {
     position: relative;
     margin: 6px;  
 }
-.container{
-    display:inline-table
-}
 .about-rental{
     color: black;
     font-size:  16px;
 }
 .service-image{
-    width: 50%;
+    width: 100%;
+    
 }
 
 .red-icon {
@@ -48,7 +46,10 @@ h3 {
     width: 15px;
     height: 15px;
 }
-
+.services-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
 @media screen and (max-width: 900px) {
 
 .service-image {
