@@ -52,24 +52,32 @@ h4 {
     width: 90%;
 }
 .short-red-line {
-   box-sizing: border-box;
     width: 11%;
     height: 3px;
     background-color: var(red short-red-line);
-    position: relative;
-    display: block;
     margin: 15px 0;
 }
-
 .red-icon {
-    display: inline;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 24px;
 }
 .services-defenition { 
     display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+}
+
+.advantages {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    color: #8c8c8c;
+    display: contents;
+    font-size: 16px;
+}
+#main-services {
+    display: flex;
+    width: 90%;
 }
 
 @media screen and (max-width: 900px) {
