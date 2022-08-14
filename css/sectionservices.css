@@ -34,10 +34,31 @@ h3 {
 }
 .about-rental{
     color: black;
-    font-size:  16px;
+    font-size: 22px;
+    padding-top: 5%;
+}
+.main-text {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+h4 {
+    padding-bottom: 15px;
 }
 .service-image{
-    width: 100%;
+    width: 85%;
+}
+.services-name{
+    display: flex;
+    width: 90%;
+}
+.short-red-line {
+   box-sizing: border-box;
+    width: 11%;
+    height: 3px;
+    background-color: var(red short-red-line);
+    position: relative;
+    display: block;
+    margin: 15px 0;
 }
 
 .red-icon {
@@ -45,15 +66,11 @@ h3 {
     width: 15px;
     height: 15px;
 }
-.services-name{
+.services-defenition { 
     display: flex;
-    width: 120%;
+	flex-wrap: wrap;
+	width: 100%;
 }
-.component {
-    height: 2px;
-    width: 11%;
-    background-color: #c00407;}
-
 
 @media screen and (max-width: 900px) {
 
