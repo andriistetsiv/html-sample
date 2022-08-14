@@ -45,12 +45,13 @@ h4 {
     padding-bottom: 15px;
 }
 .service-image{
-    width: 85%;
+    width: 90%;
 }
 .services-name{
     display: flex;
     width: 90%;
 }
+
 .short-red-line {
     width: 11%;
     height: 3px;
@@ -75,11 +76,23 @@ h4 {
     display: contents;
     font-size: 16px;
 }
-#main-services {
+/* #main-services2 {
     display: flex;
-    width: 90%;
+    width: 100%;
 }
-
+#main-services1 {
+    display: flex;
+    width: 100%;
+}
+#main-services3 {
+    display: flex;
+    width: 100%;
+}
+#main-services4 {
+    display: flex;
+    width: 100%;
+}
+*/
 @media screen and (max-width: 900px) {
 
 .service-image {
