@@ -52,12 +52,6 @@ h4 {
     width: 90%;
 }
 
-.short-red-line {
-    width: 11%;
-    height: 3px;
-    background-color: var(red short-red-line);
-    margin: 15px 0;
-}
 .red-icon {
     width: 20px;
     height: 24px;
@@ -67,7 +61,6 @@ h4 {
 	flex-wrap: wrap;
 	width: 100%;
 }
-
 .advantages {
     position: relative;
     bottom: 40px;
