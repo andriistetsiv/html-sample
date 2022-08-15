@@ -31,17 +31,25 @@ h3 {
     flex-direction: column;
     position: relative;
     margin: 6px;  
+    border-width: medium;
 }
 .about-rental{
     color: black;
     font-size: 22px;
     padding-top: 5%;
 }
+.benefits{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
 .main-text {
     box-sizing: border-box;
     font-size: 16px;
+    padding-top: 15px;
 }
 h4 {
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 .service-image{
@@ -51,13 +59,18 @@ h4 {
     display: flex;
     width: 90%;
 }
+#red-short-line{
+    height: 2px;
+    width: 11%;
+    background-color: #c00407;
+}
 
 .red-icon {
     width: 20px;
     height: 24px;
 }
 .services-defenition { 
-    display: flex;
+    display: block;
 	flex-wrap: wrap;
 	width: 100%;
 }
@@ -117,6 +130,11 @@ h3 {
         box-shadow:3px 3px 5px #999;
         padding-bottom: 10%;
 }
+
+.benefits{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 .nav-list li {
     display: inline-block;
     padding: 0 10px;
@@ -135,6 +153,7 @@ h3 {
     background-color: #c00407;
 }
 .main-text {
+    margin-top: 10px;
     color: rgb(81,81,81);
     text-align: left;
     font-size: 16px;
