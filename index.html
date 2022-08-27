@@ -13,17 +13,16 @@
     <section id=services class="services">
         <h3 class="main">Services</h3>
         <p class="services-head"><b>Everything Related to Coffee</b></p>
-       <p class="services-text">Our company is the ultimate place for everything related to coffee. We offer coffee machines for rent, as well as repairs, accessories, and supplies.</p>
-       <div class="about__services"></div>
-         <div class="about__rental services"></div>
+        <p class="services-text">Our company is the ultimate place for everything related to coffee. We offer coffee machines for rent, as well as repairs, accessories, and supplies.</p>
+       <div class="tabs">
          <div class="tabs__nav">
-            <div class="tabs__nav-btn active" type="button">Rental Services</div>
-            <div class="tabs__nav-btn" type="button">Consulting</div>
-            <div class="tabs__nav-btn" type="button">Accessories</div>
-            <div class="tabs__nav-btn" type="button">Repair</div>
-          </div>
-       <div class="">
-           <div class=>
+            <div class="tabs__nav-btn active" type="button" data-tab="#rental_services">Rental Services</div>
+            <div class="tabs__nav-btn" type="button" data-tab="#consulting">Consulting</div>
+            <div class="tabs__nav-btn" type="button" data-tab="#accessories">Accessories</div>
+            <div class="tabs__nav-btn" type="button" data-tab="#repair">Repair</div>
+         </div>
+       <div class="tabs__content">
+           <div class="tabs__item active" id="Rental_Services">
               <article class="border">
                 <div class="services-name">
                    <div>
@@ -54,7 +53,7 @@
               </article>
            </div>
       
-            <div class=>
+            <div class="tabs__item" id="consulting" >
                <article class="border">
                   <div class="services-name">
                     <div>
@@ -84,7 +83,7 @@
              </article>
            </div>
 
-           <div class=>
+           <div class="tabs__item" id="accessories" >
               <article class="border">
                    <div class="services-name">
                        <div>
@@ -114,7 +113,7 @@
                 </article>
             </div>
 
-           <div class= >
+           <div class="tabs__item" id="repair">
              <article class="border">
                 <div class="services-name">
                      <div>
@@ -144,8 +143,9 @@
              </article>
           </div> 
        </div>
-    </section>
+       </div>
+      </section>
 </main>
-    <script src="js/services.js""></script>
+    <script src="js/services.js"></script>
 </body>
 </html>

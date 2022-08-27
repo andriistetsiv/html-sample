@@ -19,6 +19,7 @@ h3 {
 
 .tabs__nav-btn {
     display: inline;
+    cursor: pointer;
 }
 .services-text {
     font-size: 18px;
