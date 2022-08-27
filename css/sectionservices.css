@@ -17,6 +17,9 @@ h3 {
     padding: 10px;
 }
 
+.tabs__nav-btn {
+    display: inline;
+}
 .services-text {
     font-size: 18px;
     text-align: center;
@@ -94,7 +97,9 @@ h4 {
     display: block;
     width: 100%;
 }
-
+.tabs__nav-btn {
+    display: inline;
+}
 h3 {
     text-transform: uppercase;
     color: #c00407;
