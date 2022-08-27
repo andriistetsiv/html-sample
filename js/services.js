@@ -1,7 +1,7 @@
 
 const tabsBtn = document.querySelectorAll('.tabs__nav-btn');
 
-const tabsItem = document.querySelectorAll(".tabs__item");
+const tabsItem = document.querySelectorAll('.tabs__item');
 
 tabsBtn.forEach(onTabClick); 
 

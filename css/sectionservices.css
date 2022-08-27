@@ -88,14 +88,13 @@ h4 {
     font-size: 16px;
 }
 
-.tabs__item {
+.tabs__item.active{
     display: none;
 };
 
-.tabs__item.active {
+.tabs__item {
     display: block;
 }
-
 
 @media screen and (max-width: 900px) {
 
@@ -176,5 +175,13 @@ h3 {
 .services-text {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.tabs__item {
+    display: none;
+}
+
+.tabs__item.active {
+    display: block;
 }
 }
