@@ -1,3 +1,4 @@
+(function() {
 
 const tabsBtn = document.querySelectorAll('.tabs__nav-btn');
 
@@ -29,3 +30,7 @@ function onTabClick(item) {
 }
 
 document.querySelector('.tabs__nav-btn').click();
+
+
+}) ();
+

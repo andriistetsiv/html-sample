@@ -17,10 +17,6 @@ h3 {
     padding: 10px;
 }
 
-.tabs__nav-btn {
-    display: inline;
-    cursor: pointer;
-}
 .services-text {
     font-size: 18px;
     text-align: center;
@@ -97,12 +93,19 @@ h4 {
     display: block;
 }
 
+.tabs__nav {
+    text-align: center;
+}
+
 .tabs__nav-btn {
     border: none;
-    display: inline-block;
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
+    opacity: .95;
+    font-style: inherit;
+    font-size: inherit;
+    
 }
 
 @media screen and (max-width: 900px) {
